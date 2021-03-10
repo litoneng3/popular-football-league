@@ -1,0 +1,21 @@
+.league-container{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.league-image img{
+    width: 100%;
+}
+.league-info img{
+    width: 15px;
+}
+.league-details{
+    width: 80%;
+    margin: 0 auto;
+}
+.league-footer a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 30px;
+}

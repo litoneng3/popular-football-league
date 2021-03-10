@@ -4,12 +4,12 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import NoMatch from './components/NoMatch/NoMatch';
-import Leagues from './components/Leagues/Leagues';
 import LeagueDetail from './components/LeagueDetail/LeagueDetail';
+
+
 
 
 function App() {

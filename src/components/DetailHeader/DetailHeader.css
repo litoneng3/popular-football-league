@@ -1,0 +1,17 @@
+.detailHeader{
+    background-image: url("../../Image//Photo/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.detailHeader h4{
+    padding: 40px 0;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.detailHeader img{
+    width: 30%;
+    height: 30%;
+}
