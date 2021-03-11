@@ -18,7 +18,7 @@ const Home = () => {
         <div>
             <Header></Header>
             {
-                leagues.map(league => <Leagues league={league}></Leagues>)
+                leagues.map(league => <Leagues league={league} key={league.idLeague}></Leagues>)
             }
         </div>
     );

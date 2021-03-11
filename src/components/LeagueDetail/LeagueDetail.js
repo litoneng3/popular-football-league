@@ -9,8 +9,6 @@ import maleTeam from '../../Image/Photo/Rectangle 28.png';
 import './LeagueDetail.css';
 import DetailHeader from '../DetailHeader/DetailHeader';
 
-
-
 const LeagueDetail = () => {
     const { id } = useParams();
 
@@ -25,13 +23,11 @@ const LeagueDetail = () => {
 
     const { strLeague, strCountry, strGender, intFormedYear, strSport, strDescriptionEN, strFacebook,strTwitter, strYoutube, strDescriptionFR } = league;
 
-    let image;
-    if (strGender === 'feMale') {
-        image = <img src={maleTeam} alt="" />;
-    }
-    else {
-        image = <img src={femaleTeam} alt="" />;
-    }
+    console.log(strCountry);
+
+    let image =(strGender ==="Male" || strGender === undefined)? <img src={maleTeam} alt="MaleTeam" /> : <img src={femaleTeam} alt="FemaleTeam" />
+    
+   
 
     return (
         <div className="league-details container">
@@ -40,10 +36,10 @@ const LeagueDetail = () => {
             </div>
             
             <div class="container px-4">
-                <div class="row gx-5 bg-success">
+                <div class="row gx-5 bg-success rounded">
                     <div class="col-lg-6 col-sm-12">
                         <div class="p-3">
-                            <div className="league-info">
+                            <div className="league-info mt-5">
                                 <h4>{strLeague}: </h4>
                                 <p><img src={foundIcon} alt="" /> Founded: {intFormedYear}</p>
                                 <p><img src={countryIcon} alt="" /> Country: {strCountry}</p>
@@ -55,7 +51,9 @@ const LeagueDetail = () => {
                     <div class="col-lg-6 col-sm-12">
                         <div class="p-3">
                             <div className="league-image">
-                                {image}
+                                {
+                                    image
+                                }
                             </div>
                         </div>
                     </div>

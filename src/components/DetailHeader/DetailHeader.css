@@ -11,7 +11,11 @@
     font-size: 30px;
     font-weight: 700;
 }
-.detailHeader img{
+.detailHeader #badge{
     width: 30%;
     height: 30%;
+    z-index: 1;
+}
+.detailHeader #banner{
+    width: 100%;
 }
