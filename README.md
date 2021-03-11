@@ -1,73 +1,31 @@
-# Getting Started with Create React App
+# Creating my react router website named Popular football Leagues in the World.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For creating my react router website i used the command:
+ # npx create-react-app popular-football-league
+ After creating this , i went to project directory by using 
+ # cd popular-football-league
+ Then i used
+ # npm start
 
-## Available Scripts
+ I changed the website title as Popular Football League and changed the favicon. 
 
-In the project directory, you can run:
+ # Objective of this Website
+ There are various features in this website. In the Leagues Page, you can see 20 popular football leagues' name, type in every card and every card has a show detail button. 
+ When you click on the show detail button, it will take you in the new page named LeagueDetail and there are various information of the corresponding league such as the Banned, Badge, Logo, the year founded the club, country, gender, type of the games etc. There you can see a photo (if the league is for male there will be a male Team photo otherwise female Team photo). 
+ After this you can see League details as paragraph. 
+ At the footer section you can see three social icons facebook, twitter, youtube. By clicking these social icons anyone can go to the corresponding social media. 
 
-### `npm start`
+ # Required libraries and software
+ I used the react router in my website. 
+ I also used react bootstrap, font awesome. I used conditional rendering, object destructuring properly. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ # Assignment Requirements: 
+ I used thesportsdb api for this website, by clicking in the card it will take in the router and i used the react router paramaters dynamically. From the router paramater i access the data and create a dynamic url and load data by using useEffect, useStates, useParams hooks. 
+ I used the meaningful className, variables, function Name etc.
+ After that i pushed the code in github and hosted my website in netlify. 
+ For making responsive i used plain bootstrap. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# react-router-litoneng3
-# This-is-my-first-react-router-website
+ # This-is-my-first-react-router-website
 This is my website link: [https://604a0b3cde3cefb1ab097589--happy-carson-b22f6a.netlify.app/](https://604a0b3cde3cefb1ab097589--happy-carson-b22f6a.netlify.app/)
+
+
