@@ -6,7 +6,7 @@ const Leagues = (props) => {
     const { idLeague, strLeague, strSport } = props.league;
     
     return (
-        <div className="card bg-success col-sm-12 leagueStyle" style={{width: '21rem'}}>
+        <div className="card bg-info col-sm-12 leagues" style={{width: '21rem'}}>
             <div className="card-body">
                 <h4>Name of the League: {strLeague}</h4>
                 <h5>Sports Type: {strSport}</h5>

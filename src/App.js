@@ -10,8 +10,6 @@ import NoMatch from './components/NoMatch/NoMatch';
 import LeagueDetail from './components/LeagueDetail/LeagueDetail';
 
 
-
-
 function App() {
   
   return (
@@ -32,8 +30,6 @@ function App() {
           </Route>
         </Switch>
       </Router>
-      
-      
     </div>
   );
 }

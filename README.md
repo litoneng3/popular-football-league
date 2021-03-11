@@ -1,4 +1,4 @@
-# Creating my react router website named Popular football Leagues in the World.
+# Creating my react router website named Popular football Leagues
 
 For creating my react router website i used the command:
  # npx create-react-app popular-football-league

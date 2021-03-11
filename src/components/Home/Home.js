@@ -14,7 +14,6 @@ const Home = () => {
      leagues = leagues.slice(0,20)
 
     return (
-
         <div>
             <Header></Header>
             {

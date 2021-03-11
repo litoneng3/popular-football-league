@@ -1,9 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import foundIcon from '../../Image/Icon/found 1.png';
-import countryIcon from '../../Image/Icon/flag (1) 1.png';
-import footballIcon from '../../Image/Icon/football (1) 1.png';
-import genderIcon from '../../Image/Icon/male-gender-sign 1.png';
 import femaleTeam from '../../Image/Photo/female.png';
 import maleTeam from '../../Image/Photo/Rectangle 28.png';
 import './LeagueDetail.css';
@@ -41,10 +37,10 @@ const LeagueDetail = () => {
                         <div class="p-3">
                             <div className="league-info mt-5">
                                 <h4>{strLeague}: </h4>
-                                <p><img src={foundIcon} alt="" /> Founded: {intFormedYear}</p>
-                                <p><img src={countryIcon} alt="" /> Country: {strCountry}</p>
-                                <p><img src={footballIcon} alt="" /> Sport Type: {strSport}</p>
-                                <p><img src={genderIcon} alt="" />  Gender: {strGender}</p>
+                                <p><i class="far fa-calendar-alt"></i>  Founded: {intFormedYear}</p>
+                                <p><i class="fas fa-flag"></i>  Country: {strCountry}</p>
+                                <p><i class="far fa-futbol"></i>  Sport Type: {strSport}</p>
+                                <p><i class="fas fa-mars"></i>  Gender: {strGender}</p>
                             </div>
                         </div>
                     </div>
@@ -63,11 +59,11 @@ const LeagueDetail = () => {
                 <p>{strDescriptionEN}</p>
                 <p>{strDescriptionFR}</p>
             </div>
-            <div className="league-footer col-lg-12 col-sm-12 d-flex justify-content-center">
+
+            <div className="league-footer col-lg-12 col-sm-12 d-flex justify-content-center mb-5">
                 <a href={`http://${strFacebook}`} target="blank"><i class="fab fa-facebook"></i></a>
                 <a href={`http://${strTwitter}`} target="blank"><i class="fab fa-twitter"></i></a>
                 <a href={`http://${strYoutube}`} target="blank"><i class="fab fa-youtube"></i></a>
-                
             </div>
         </div>
 
